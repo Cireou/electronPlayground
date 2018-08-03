@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='css/login.css'>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='header'>
+        <h1>Playground Login</h1>
+      </div>
+      <div class='formDiv'>
+        <form id='loginForm'>
+          <input type="text" id='username' name="username" placeholder="Username">
+          <input type="password" id='password' name="password" placeholder="Password">
+          <input type='password' id='confirm' placeholder='Confirm Password' style="display:none">
+          <p class = 'errorMsg'></p>
+          <button type="submit" id="loginBtn" class="btn btn-primary">Login</button>
+          <button type="button" id="signUpBtn" class="btn btn-secondary">Sign Up</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      require('./script/login.js')
+    </script>
+  </body>
+</html>

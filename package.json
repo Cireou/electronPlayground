@@ -1,0 +1,25 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Testing Electron and setting up automated testing with Spectron/Mocha",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Eric Ou",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.6",
+    "mocha": "^5.2.0",
+    "spectron": "^3.8.0"
+  }
+}

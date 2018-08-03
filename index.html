@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playground</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='css/index.css'>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class = "console">Welcome back, Eric.</h1>
+    </div>
+    <div class="playground">
+      <button type="button" id="pomodoroBtn" class="btn btn-outline-dark">Pomodoro</button>
+      <button type="button" id="filesBtn" class="btn btn-outline-info">Files</button>
+      <button type="button" id="hivedeskBtn" class="btn btn-outline-success">HiveDesk</button>
+      <button type="button" id="screenShotBtn" class="btn btn-outline-primary">ScreenShot</button>
+      <div class = "confirmation">
+        <button type="button" id="confirmBtn" class="btn btn-light">Okay</button>
+      </div>
+    </div>
+    <script>
+      // You can also require other files to run in this process
+      require('./script/renderer.js')
+    </script>
+  </body>
+</html>

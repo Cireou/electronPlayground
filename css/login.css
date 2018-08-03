@@ -1,0 +1,38 @@
+.header {
+	text-align: center;
+	color: seashell;
+	font-family: 'Great Vibes', cursive;
+	text-shadow: .75px .75px #000;
+}
+
+h1 {
+	font-size: 55px;
+}
+
+input {
+	margin: auto auto .5em;
+	border-radius: 4px;
+	padding: 6px 10px;
+	display: inline-block;
+}
+
+.formDiv{ 
+	text-align:center;
+	margin: auto; 
+	width:250px;
+}
+
+.container {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+form {
+	margin: auto;
+}
+
+body {
+	background: url("../images/loginBG.jpg");
+}
